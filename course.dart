@@ -5513,7 +5513,87 @@ Course(
       startDate: 'Contact Us',
       nextAvailableDate: 'Contact Us',
       description: 'This five-day instructor-led course goes beyond basic Big Data concepts to give participants a head start with Hadoop. It will also cover data analysis using the Hadoop Ecosystem for data analysts, business intelligence specialists, developers, and system architects. ASSOCIATED CERTIFICATION(S) Upon completion of the course, participants can take the exam on Cloudera Certified Associate (CCA) ...',
-      outline: null,
+      outline: {
+        'Lesson 1: Basics of Big Data and Understanding Hadoop': [
+          'Why We Need Hadoop',
+          'Why Hadoop Is in Demand in Market Nowadays',
+          'Where Expensive SQL-Based Tools Are Failing',
+          'Key Points: Why Hadoop Is a Leading Tool in the Current IT Industry',
+          'Definition of Big Data',
+          'Introduction to Hadoop Release 1',
+          'Hadoop Daemons in Hadoop Release 1',
+          'Introduction to Hadoop Release 2',
+          'Hadoop Daemons in Hadoop Release 2',
+          'Hadoop Cluster and Racks',
+          'Hadoop Cluster Demo',
+          'New Projects on Hadoop',
+          'How Open Source Tools Are Capable of Running Jobs in Less Time',
+          'Hadoop Storage – HDFS (Hadoop Distributed File System)',
+          'Hadoop Processing Framework (MapReduce/YARN)',
+          'Alternatives to MapReduce',
+          'Why NoSQL Is in High Demand Instead of SQL',
+          'Distributed Warehouse for HDFS',
+          'Hadoop Ecosystem and Its Uses',
+          'Data Import/Export Tools',
+        ],
+        'Lesson 2: Footprinting and Recoinnaissance': [
+          'Learn how to use the latest techniques and tools for footprinting and reconnaissance, a critical pre-attack phase of ethical hacking',
+        ],
+        'Lesson 3: Scanning Networks': [
+          'Learn different network scanning techniques and countermeasures.',
+        ],
+        'Lesson 4: Enumeration': [
+          'Learn various enumeration techniques, including Border Gateway Protocol (BGP) and Network File Sharing (NFS) exploits and associated countermeasures.',
+        ],
+        'Lesson 5: Vulnerability Analysis': [
+          'Learn how to identify security loopholes in a target organization\'s network, communication infrastructure, and end systems. Different types of vulnerability assessment and vulnerability assessment tools are also included.',
+        ],
+        'Lesson 6: System Hacking': [
+          'Learn about the various system hacking methodologies used to discover system and network vulnerabilities, including steganography, steganalysis attacks, and how to cover tracks.',
+        ],
+        'Lesson 7: Malware Threats': [
+          'Learn about different types of malware (Trojan, viruses, worms, etc.), APT and fileless malware, malware analysis procedures, and malware countermeasures.',
+        ],
+        'Lesson 8: Sniffing': [
+          'Learn about packet sniffing techniques and their uses for discovering network vulnerabilities, plus countermeasures to defend against sniffing attacks.',
+        ],
+        'Lesson 9: Social Engineering': [
+          'Learn social engineering concepts and techniques, including how to identify theft attempts, audit human-level vulnerabilities, and suggest social engineering countermeasures.',
+        ],
+        'Lesson 10: Denial-of-Service': [
+          'Learn about different Denial of Service (DoS) and Distributed DoS (DDoS) attack techniques, plus the tools used to audit a target and devise DoS and DDoS countermeasures and protections.',
+        ],
+        'Lesson 11: Session Hijacking': [
+          'Learn the various session-hijacking techniques used to discover network-level session management, authentication, authorization, and cryptographic weaknesses and associated countermeasures.',
+        ],
+        'Lesson 12: Evading IDS, Firewalls, and Honeypots': [
+          'Learn about firewalls, intrusion detection systems (IDS), and honeypot evasion techniques; the tools used to audit a network perimeter for weaknesses; and countermeasures.',
+        ],
+        'Lesson 13: Hacking Webservers': [
+          'Learn about web server attacks, including a comprehensive attack methodology used to audit vulnerabilities in web server infrastructures and countermeasures.',
+        ],
+        'Lesson 14: Hacking Web Applications': [
+          'Learn about web application attacks, including a comprehensive hacking methodology for auditing vulnerabilities in web applications and countermeasures.',
+        ],
+        'Lesson 15: SQL Injection': [
+          'Learn about SQL injection attack techniques, evasion techniques, and SQL injection countermeasures.',
+        ],
+        'Lesson 16: Hacking Wireless Networks': [
+          'Learn about different types of encryption, threats, hacking methodologies, hacking tools, security tools, and countermeasures for wireless networks.',
+        ],
+        'Lesson 17: Hacking Mobile Platforms': [
+          'Learn mobile platform attack vectors, Android and iOS hacking, mobile device management, mobile security guidelines, and security tools.',
+        ],
+        'Lesson 18: IoT Hacking': [
+          'Learn different types of Internet of Things (IoT) and operational technology (OT) attacks, hacking methodologies, hacking tools, and countermeasures.',
+        ],
+        'Lesson 19: Cloud Computing': [
+          'Learn different cloud computing concepts, such as container technologies and serverless computing, various cloud computing threats, attacks, hacking methodologies, and cloud security techniques and tools.',
+        ],
+        'Lesson 20: Cryptography': [
+          'Learn about encryption algorithms, cryptography tools, Public Key Infrastructure (PKI), email encryption, disk encryption, cryptography attacks, and cryptanalysis tools.',
+        ],
+      },
       prerequisites: null,
       whoShouldAttend: null,
       importantNotes: null,
